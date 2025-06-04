@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+ 
+#titulo {
+  font-size: 40px;
+  color: #5FA8F2;
+  margin-bottom: 10px;
+  text-align: center;
+
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fffafc;
+  color: #333;
+  margin: 0 auto;
+  padding: 40px 20px;
+  max-width: 800px;
+  line-height: 1.6;
+}
+#sub1{
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.sub {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+.seccoes {
+  font-size: 28px;
+  color: #4b68b8;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #79d97d;
+  padding-bottom: 5px;
+}
+.projeto {
+  font-size: 22px;
+  color: #f290b1;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+.idioma {
+  font-size: 20px;
+  color: #333;
+  margin: 10px 0;
+}
+ul {
+  font-family: 'Poppins';
+  padding-left: 20px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+li {
+  margin-bottom: 6px;
+}
+nav {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #5FA8F2;
+  font-weight: 600;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.3s;
+}
+
+nav a:hover {
+  border-bottom: 2px solid #5FA8F2;
+}
+img {
+  max-width: 100%;   
+  height: auto;    
+  border-radius: 12px; 
+}
+
+.img-container{
+    text-align: center;
+}
